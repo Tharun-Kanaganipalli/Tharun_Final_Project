@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    text-align: center;
+  }
+  
+  .header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  .content {
+    margin: 50px auto;
+  }
+  
+  h2 {
+    color: #333;
+    font-size: 1.5rem;
+  }
+  
+  p {
+    color: #666;
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+  
+  .button-container {
+    margin-top: 20px;
+  
+  }
+  
+  .btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    color: white;
+    background-color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .btn:hover {
+    background-color: navy;
+  }
+  
+  footer {
+    background-color: #000;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  button {
+    padding: 10px;
+    width: 10%;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+  }
+
+  button[type="submit"] {
+    background-color: #333;
+    color: white;
+    
+  }
+
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+  button[type="open"] {
+    background-color: #333;
+    color: white;
+  }
+
+  button[type="open"]:hover {
+    background-color: #45a049;
+  }
+  
