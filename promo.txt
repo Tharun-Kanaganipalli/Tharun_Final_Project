@@ -1,0 +1,42 @@
+
+
+Next.js Quick Pick Salon Finder App - Tech Stack and Features
+
+
+-About the App
+It is a web application with two user roles - Salon Owner and Normal User. The app allows users to search for salons based on 
+their location and preferences. Salon owners can create a profile for their salon and list their services. Users can search for 
+salons based on location, services offered, and ratings. The app also allows users to book appointments with salons.
+
+
+-Tech Stack
+Frontend: Next.js, React, Tailwind CSS
+Backend: Nex.js server actions
+Database: PostgreSQL
+Authentication: JWT
+Version Control: Git
+Deployment: Vercel (in progress)
+
+
+
+-Features of Salon Owner
+1. Register and login to the app
+2. Create a profile for their salon
+3. List services offered by the salon
+4. View and manage appointments
+5. View and manage reviews and ratings
+6. Filter booked appointments by date , salon
+7. Create and manage multiple salons in one accounts
+8. A dashboard to view all the insights of the salons like total appointments, total reviews recieved, total ratings recieved, total revenue generated, etc.
+
+
+-Features of Normal User
+1. Register and login to the app
+2. Search for salons based on location, services offered, and ratings
+3. View salon details including services offered, ratings, and reviews
+4. Book appointments with salons
+5. View and manage booked appointments
+6. View and submit reviews and ratings for salons
+7. Filter booked appointments by date , salon
+8. A dashboard to view all the insights of the user like total appointments booked,  total reviews given, etc.
+

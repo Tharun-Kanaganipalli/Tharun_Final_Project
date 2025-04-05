@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 500;
+}
+
+
+:root  {
+  --background: 46 0% 100%;
+  --foreground: 46 0% 10%;
+  --card: 46 0% 100%;
+  --card-foreground: 46 0% 15%;
+  --popover: 46 0% 100%;
+  --popover-foreground: 46 95% 10%;
+  --primary: 46 0% 0%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 46 10% 90%;
+  --secondary-foreground: 0 0% 0%;
+  --muted: 8 10% 95%;
+  --muted-foreground: 46 0% 40%;
+  --accent: 8 10% 90%;
+  --accent-foreground: 46 0% 15%;
+  --destructive: 0 50% 50%;
+  --destructive-foreground: 0 100% 35%;
+
+  --border: 46 20% 82%;
+  --input: 46 20% 50%;
+  --ring: 46 0% 0%;
+  --radius: 0.5rem;
+}
+.dark  {
+  --background: 46 10% 10%;
+  --foreground: 46 0% 100%;
+  --card: 46 0% 10%;
+  --card-foreground: 46 0% 100%;
+  --popover: 46 10% 5%;
+  --popover-foreground: 46 0% 100%;
+  --primary: 46 0% 0%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 46 10% 20%;
+  --secondary-foreground: 0 0% 100%;
+  --muted: 8 10% 25%;
+  --muted-foreground: 46 0% 65%;
+  --accent: 8 10% 25%;
+  --accent-foreground: 46 0% 95%;
+  --destructive: 0 50% 50%;
+  --destructive-foreground: 0 100% 35%;
+
+  --border: 46 20% 50%;
+  --input: 46 20% 50%;
+  --ring: 46 0% 0%;
+  --radius: 0.5rem;
+}
+
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+
+.auth-bg{
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #8f8f8f;
+  margin-top: 20px;
+}
+
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
